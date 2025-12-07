@@ -40,8 +40,9 @@ class Student:
                 self.to_sleep()
             elif live_cube == 3:
                 self.to_chill()
-                self.end_of_day()
-                self.is_alive ()
+
+            self.end_of_day()
+            self.is_alive ()
 nick = Student(name="Nick")
 
 for day in range(365):
